@@ -17,7 +17,7 @@ const navItems = [
   { path: "/contact", label: "Contact" },
 ];
 
-export const Navbar = async () => {
+export const Navbar = () => {
   // await temporalAsync();
   return (
     <nav className="flex bg-blue-400 bg-opacity-30 p-2 m-2 rounded">
